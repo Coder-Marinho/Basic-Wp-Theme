@@ -1,8 +1,11 @@
 <?php 
 require_once 'header.php';
-?>
 
-<?php
+if(have_posts()):
+
+
+endif;
+
 require_once 'footer.php';
 ?>
 

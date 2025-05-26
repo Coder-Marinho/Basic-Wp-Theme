@@ -2,6 +2,7 @@
 
 function add_recourses(){
     add_theme_support('custom-logo');
+    add_theme_support('post-thumbnails');
 }
 add_action('after_setup_theme', 'add_recourses');
 
